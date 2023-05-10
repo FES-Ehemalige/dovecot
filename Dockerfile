@@ -1,4 +1,4 @@
-FROM alpine:3.17.2
+FROM alpine:3.18.0
 
 RUN set -ex && apk add --no-cache dovecot dovecot-ldap dovecot-lmtpd dovecot-mysql dovecot-pop3d dovecot-pigeonhole-plugin
 RUN set -ex && rm -fr /etc/dovecot/*
